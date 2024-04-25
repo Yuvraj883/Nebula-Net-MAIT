@@ -19,7 +19,7 @@ const Tours = ()=>{
     <div className="flex flex-wrap items-center justify-center w-[90%]">
       {
         tours.map((tour)=>(
-          <TourCard tour={tour}/>
+          <TourCard tour={tour} key={tour.id}/>
         ))
       }
 
