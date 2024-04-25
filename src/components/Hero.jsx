@@ -21,7 +21,7 @@ const Hero = () => {
         <p className="text-lg lg:text-xl text-center font-semibold mb-8">
           Explore the cosmos with us and embark on exciting space adventures!
         </p>
-        <HashLink
+        <HashLink smooth
           to="#tours-div"
           className="bg-white hover:bg-black hover:text-white text-black px-8 font-semibold py-3 rounded-md w-full lg:w-auto"
         >
