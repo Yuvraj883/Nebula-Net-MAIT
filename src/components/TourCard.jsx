@@ -1,7 +1,7 @@
 const TourCard = ()=>{
   return(
     <>
-      
+        <div className=""></div>
     </>
   )
 }
