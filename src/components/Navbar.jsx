@@ -11,29 +11,29 @@ const Navbar = () => {
         <IoRocket className="text-white text-2xl ml-1" />
 
       </div>
-      <ul className="flex space-x-4">
+      <ul className="flex space-x-4 ">
         <li>
-          <Link to="/Home" className="text-gray-600 hover:text-black">
+          <Link to="/Home" className="text-gray-600 hover:text-white">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/About" className="text-gray-600 hover:text-black">
+          <Link to="/About" className="text-gray-600 hover:text-white">
             About
           </Link>
         </li>
         <li>
-          <Link to="/Travel" className="text-gray-600 hover:text-black">
+          <Link to="/Travel" className="text-gray-600 hover:text-white">
             Travel
           </Link>
         </li>
         <li>
-          <Link to="/Destinations" className="text-gray-600 hover:text-black">
+          <Link to="/Destinations" className="text-gray-600 hover:text-white">
             Destinations
           </Link>
         </li>
         <li>
-          <Link to="/Space" className="text-gray-600 hover:text-black">
+          <Link to="/Space" className="text-gray-600 hover:text-white">
             Space
           </Link>
         </li>
