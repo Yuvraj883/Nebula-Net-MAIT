@@ -11,8 +11,8 @@ const Hero = () => {
 
       {/* Your content inside the Hero component */}
       <div className="container mx-auto px-4 py-12 text-white flex flex-col mt-[6%] items-center   lg:w-2/3">
-        <div className="flex items-center mb-6">
-          <h1 className="text-4xl lg:text-5xl font-bold mr-1 lg:mr-4">Welcome to ExpoCosmo</h1>
+        <div className="flex items-center mb-6 text-center">
+          <h1 className="text-4xl lg:text-5xl font-bold mr-1 lg:mr-1 ">Welcome to ExpoCosmo</h1>
           <IoRocket className="text-6xl lg:text-6xl" />
         </div>
         <p className="text-lg lg:text-xl text-center font-semibold mb-8">
