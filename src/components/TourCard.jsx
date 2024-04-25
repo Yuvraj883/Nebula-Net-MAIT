@@ -9,6 +9,7 @@ const TourCard = (props) => {
         className='h-52 w-full object-cover rounded-md mb-4'
         src={props?.tour?.images[0]}
         alt={props?.tour?.name}
+        loading="lazy"
       />
       <h1 className='text-lg font-bold'>{props?.tour?.name}</h1>
 
