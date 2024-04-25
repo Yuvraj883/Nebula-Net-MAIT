@@ -5,8 +5,9 @@ const Navbar = () => {
   return (
     <div className="flex justify-between px-8 items-center h-16">
       <div className="flex items-center">
-        <img src="./images/rocket.png" alt="icon" className="h-8 mr-2" />
         <span className="text-xl font-bold">ExpoCosmo</span>
+        <img src="./images/rocket.png" alt="icon" className="h-8 mt-2" />
+
       </div>
       <ul className="flex space-x-4">
         <li>
