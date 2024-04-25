@@ -1,19 +1,17 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+
+import Home from './pages/Home';
+import TourInfo from './pages/TourInfo';
 import {Routes, Route} from 'react-router-dom';
-import TourCard from "./components/TourCard";
 
 
 function App() {
   return (
     <>
-    <Hero/>
-    <div className="flex flex-wrap">
-    <TourCard/>
-    <TourCard/>
-    <TourCard/>
+    <Routes>
+      <Route path="/" element = {<Home/>}/>
+      <Route path='/know-more/:id' element = {<TourInfo/>}/>
+    </Routes>
 
-    </div>
     </>
   );
 }
