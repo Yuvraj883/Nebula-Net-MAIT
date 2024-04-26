@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import TourCard from "./TourCard";
+import Navbar from "./Navbar";
 
 const Tours = ()=>{
   const url = 'https://space-toursim-api.onrender.com/tours';
@@ -16,6 +17,8 @@ const Tours = ()=>{
 
   return(
     <>
+
+    <h1 className="text-center text-4xl font-bold mt-8 ">Tours</h1>
     <div className="flex flex-wrap items-center justify-center w-[90%]">
       {
         tours.map((tour)=>(

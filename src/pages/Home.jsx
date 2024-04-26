@@ -1,3 +1,4 @@
+import Featured from "../components/FeaturedTours";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import TourCard from "../components/TourCard";
@@ -7,8 +8,9 @@ const Home = ()=>{
   return(
     <>
      <Hero/>
-    <Tours/>
+     <Featured/>
 
+<Tours/>
     </>
   )
 }

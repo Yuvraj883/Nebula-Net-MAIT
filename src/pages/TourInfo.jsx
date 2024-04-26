@@ -35,15 +35,15 @@ const TourInfo = () => {
       {details?.images?.length > 0 && (
         <div className="carousel" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
           {details.images.map((image, index) => (
-            <img key={index} src={image} alt={`carousel-${index}`} />
+            <img className="h-70%" key={index} src={image} alt={`carousel-${index}`} />
           ))}
         </div>
       )}
 
-      <div className="carousel-controls">
+      {/* <div className="carousel-controls">
         <button onClick={prevSlide}>Previous</button>
         <button onClick={nextSlide}>Next</button>
-      </div>
+      </div> */}
     </div>
   );
 };
