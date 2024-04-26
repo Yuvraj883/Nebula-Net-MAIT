@@ -4,29 +4,29 @@ import { IoRocket } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-4 md:px-8 items-center h-16">
+    <div className="flex justify-between px-4 md:px-8 items-center h-16 bg-black">
       <div className="flex items-center">
         <span className="text-lg md:text-xl font-bold text-white">ExpoCosmo</span>
         <IoRocket className="text-white text-lg md:text-xl ml-1" />
       </div>
       <ul className="hidden md:flex space-x-4 font-semibold">
         <li>
-          <Link to="/Home" className="text-gray-600 hover:text-white ">
+          <Link to="/" className="text-gray-600 hover:text-white ">
             Home
           </Link>
         </li>
         <li>
-          <Link to="/About" className="text-gray-600 hover:text-white">
+          <Link to="/tours" className="text-gray-600 hover:text-white">
             About
           </Link>
         </li>
         <li>
-          <Link to="/Travel" className="text-gray-600 hover:text-white">
+          <Link to="/featured" className="text-gray-600 hover:text-white">
             Travel
           </Link>
         </li>
         <li>
-          <Link to="/Destinations" className="text-gray-600 hover:text-white">
+          <Link to="/about" className="text-gray-600 hover:text-white">
             Destinations
           </Link>
         </li>
